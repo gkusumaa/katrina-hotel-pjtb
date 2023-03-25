@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="hotel_facilities" time="69" tests="1" failures="0" errors="0">
+   <testsuite name="hotel_facilities" tests="1" failures="0" errors="0" time="69" timestamp="2020-04-29 16:07:48" hostname="icore-lenovo-ip320 - LAPTOP-DIKV7FRF" id="Test Suites/hotel_facilities">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\icore-lenovo-ip320\\Katalon Studio\\Katrina_Hotel\\Reports\\hotel_facilities\\20200429_160745"/>
+         <property name="logFiles" value="C:\\Users\\icore-lenovo-ip320\\Katalon Studio\\Katrina_Hotel\\Reports\\hotel_facilities\\20200429_160745\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="icore-lenovo-ip320 - LAPTOP-DIKV7FRF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 81.0.4044.129"/>
+         <property name="hostAddress" value="192.168.8.100"/>
+         <property name="sessionId" value="9f7f172a91ebd201f455e20cd7959b69"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Automation/Hotel_Facilities" classname="Test Cases/Automation/Hotel_Facilities" status="PASSED">
+         <system-out><![CDATA[2020-04-29 16:07:48 - [TEST_CASE][PASSED] - Test Cases/Automation/Hotel_Facilities: Test Cases/Automation/Hotel_Facilities
+
+2020-04-29 16:07:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-04-29 16:07:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2020-04-29 16:07:49 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2020-04-29 16:07:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-04-29 16:07:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2020-04-29 16:08:01 - [MESSAGE][PASSED] - Current window maximized
+
+2020-04-29 16:08:01 - [TEST_STEP][PASSED] - navigateToUrl("http://test-katrina.icore.studio"): Navigate to 'http://test-katrina.icore.studio' successfully
+
+2020-04-29 16:08:07 - [MESSAGE][PASSED] - Navigate to 'http://test-katrina.icore.studio' successfully
+
+2020-04-29 16:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_MEMBER LOGIN_user_name"), "katrina_system@icore.studio"): Text 'katrina_system@icore.studio' is set on object 'Object Repository/Page_Login/input_MEMBER LOGIN_user_name'
+
+2020-04-29 16:08:07 - [MESSAGE][PASSED] - Text 'katrina_system@icore.studio' is set on object 'Object Repository/Page_Login/input_MEMBER LOGIN_user_name'
+
+2020-04-29 16:08:07 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Login/input_MEMBER LOGIN_user_password"), "rahasia123"): Text 'rahasia123' is set on object 'Object Repository/Page_Login/input_MEMBER LOGIN_user_password'
+
+2020-04-29 16:08:08 - [MESSAGE][PASSED] - Text 'rahasia123' is set on object 'Object Repository/Page_Login/input_MEMBER LOGIN_user_password'
+
+2020-04-29 16:08:08 - [TEST_STEP][PASSED] - submit(findTestObject("Page_Login/button_Sign In")): The form containing object: 'Object Repository/Page_Login/button_Sign In' is submitted
+
+2020-04-29 16:08:16 - [MESSAGE][PASSED] - The form containing object: 'Object Repository/Page_Login/button_Sign In' is submitted
+
+2020-04-29 16:08:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Dashboard_Katrina/a_Hotel"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Page_Dashboard_Katrina/a_Hotel' is present
+
+2020-04-29 16:08:16 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard_Katrina/a_Hotel' is present
+
+2020-04-29 16:08:16 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Katrina/a_Hotel"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard_Katrina/a_Hotel' is clicked on
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Katrina/a_Hotel' is clicked on
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Dashboard_Hotel/header/a_Transaction History"), 8, STOP_ON_FAILURE): Object 'Object Repository/Page_Dashboard_Hotel/header/a_Transaction History' is present
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard_Hotel/header/a_Transaction History' is present
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_Dashboard_Hotel/body/select_CustomerType"), "Retail", false): All options with label 'Retail' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' 
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - All options with label 'Retail' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' 
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_Dashboard_Hotel/body/select_CustomerType"), "Retail", false, 5): All options with label 'Retail' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' 
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - All options with label 'Retail' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' 
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Dashboard_Hotel/body/select_CustomerType"), 5): Scroll to object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' successfully
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Dashboard_Hotel/body/select_CustomerType' successfully
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dashboard_Hotel/body/input_Your Destination_dropdown-input"), "Jakarta"): Text 'Jakarta' is set on object 'Object Repository/Page_Dashboard_Hotel/body/input_Your Destination_dropdown-input'
+
+2020-04-29 16:08:22 - [MESSAGE][PASSED] - Text 'Jakarta' is set on object 'Object Repository/Page_Dashboard_Hotel/body/input_Your Destination_dropdown-input'
+
+2020-04-29 16:08:22 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Hotel/body/div_Jakarta"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard_Hotel/body/div_Jakarta' is clicked on
+
+2020-04-29 16:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Hotel/body/div_Jakarta' is clicked on
+
+2020-04-29 16:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Hotel/body/img_CHECK IN_ui-datepicker-trigger"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard_Hotel/body/img_CHECK IN_ui-datepicker-trigger' is clicked on
+
+2020-04-29 16:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Hotel/body/img_CHECK IN_ui-datepicker-trigger' is clicked on
+
+2020-04-29 16:08:25 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Page_Dashboard_Hotel/body/date/a_Next"), 5, STOP_ON_FAILURE): Object 'Object Repository/Page_Dashboard_Hotel/body/date/a_Next' is present
+
+2020-04-29 16:08:25 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Dashboard_Hotel/body/date/a_Next' is present
+
+2020-04-29 16:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Hotel/body/date/a_28")): Object: 'Object Repository/Page_Dashboard_Hotel/body/date/a_28' is clicked on
+
+2020-04-29 16:08:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Hotel/body/date/a_28' is clicked on
+
+2020-04-29 16:08:25 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Dashboard_Hotel/body/input_Nationality_dropdown-input"), "Indonesia"): Text 'Indonesia' is set on object 'Object Repository/Page_Dashboard_Hotel/body/input_Nationality_dropdown-input'
+
+2020-04-29 16:08:25 - [MESSAGE][PASSED] - Text 'Indonesia' is set on object 'Object Repository/Page_Dashboard_Hotel/body/input_Nationality_dropdown-input'
+
+2020-04-29 16:08:25 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Hotel/body/nationality/div_ID - Indonesia"), STOP_ON_FAILURE): Object: 'Object Repository/Page_Dashboard_Hotel/body/nationality/div_ID - Indonesia' is clicked on
+
+2020-04-29 16:08:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Hotel/body/nationality/div_ID - Indonesia' is clicked on
+
+2020-04-29 16:08:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_Dashboard_Hotel/body/select_bed_type"), "Twin", false): All options with label 'Twin' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_bed_type' 
+
+2020-04-29 16:08:26 - [MESSAGE][PASSED] - All options with label 'Twin' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_bed_type' 
+
+2020-04-29 16:08:26 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_Dashboard_Hotel/body/select_bed_type"), "Twin", false, 5): All options with label 'Twin' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_bed_type' 
+
+2020-04-29 16:08:26 - [MESSAGE][PASSED] - All options with label 'Twin' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_bed_type' 
+
+2020-04-29 16:08:26 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Page_Dashboard_Hotel/body/select_room"), "2", false): All options with label '2' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_room' 
+
+2020-04-29 16:08:26 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_room' 
+
+2020-04-29 16:08:26 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("Page_Dashboard_Hotel/body/select_room"), "2", false, 5): All options with label '2' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_room' 
+
+2020-04-29 16:08:27 - [MESSAGE][PASSED] - All options with label '2' are selected in object 'Object Repository/Page_Dashboard_Hotel/body/select_room' 
+
+2020-04-29 16:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Page_Dashboard_Hotel/body/button_SEARCH")): Object: 'Object Repository/Page_Dashboard_Hotel/body/button_SEARCH' is clicked on
+
+2020-04-29 16:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Dashboard_Hotel/body/button_SEARCH' is clicked on
+
+2020-04-29 16:08:27 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-29 16:08:37 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2020-04-29 16:08:37 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Page_Search_Result/lbl100_Search Result")): Object 'Object Repository/Page_Search_Result/lbl100_Search Result' is visible
+
+2020-04-29 16:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Search_Result/lbl100_Search Result' is visible
+
+2020-04-29 16:08:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Page_Search_Result/btn_VIEW ROOM"), 0): Object 'Object Repository/Page_Search_Result/btn_VIEW ROOM' is visible
+
+2020-04-29 16:08:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-29 16:08:37 - [MESSAGE][PASSED] - Object 'Object Repository/Page_Search_Result/btn_VIEW ROOM' is visible
+
+2020-04-29 16:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Page_Search_Result/btn_VIEW ROOM")): Object: 'Object Repository/Page_Search_Result/btn_VIEW ROOM' is clicked on
+
+2020-04-29 16:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search_Result/btn_VIEW ROOM' is clicked on
+
+2020-04-29 16:08:38 - [TEST_STEP][PASSED] - click(findTestObject("Page_Search_Result/btn_SELECT")): Object: 'Object Repository/Page_Search_Result/btn_SELECT' is clicked on
+
+2020-04-29 16:08:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Search_Result/btn_SELECT' is clicked on
+
+2020-04-29 16:08:38 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2020-04-29 16:08:38 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2020-04-29 16:08:38 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Hotel_Detail/div_"), 0): Scroll to object 'Object Repository/Page_Hotel_Detail/div_' successfully
+
+2020-04-29 16:08:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-29 16:08:42 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Hotel_Detail/div_' successfully
+
+2020-04-29 16:08:42 - [TEST_STEP][PASSED] - click(findTestObject("Page_Hotel_Detail/a_Facilities")): Object: 'Object Repository/Page_Hotel_Detail/a_Facilities' is clicked on
+
+2020-04-29 16:08:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Hotel_Detail/a_Facilities' is clicked on
+
+2020-04-29 16:08:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2020-04-29 16:08:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2020-04-29 16:08:45 - [TEST_STEP][PASSED] - scrollToElement(findTestObject("Page_Hotel_Detail/a_Facilities"), 0): Scroll to object 'Object Repository/Page_Hotel_Detail/a_Facilities' successfully
+
+2020-04-29 16:08:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-04-29 16:08:45 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/Page_Hotel_Detail/a_Facilities' successfully
+
+2020-04-29 16:08:45 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2020-04-29 16:08:55 - [MESSAGE][PASSED] - Delayed 10 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-04-29 16:07:48 - [TEST_SUITE][PASSED] - hotel_facilities: Test Cases/Automation/Hotel_Facilities]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

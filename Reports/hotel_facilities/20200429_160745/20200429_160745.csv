@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+hotel_facilities,Chrome 81.0.4044.129,,2020-04-29 16:07:48,2020-04-29 16:08:57,1m - 9.090s,PASSED
+,,,,,,
+Test Cases/Automation/Hotel_Facilities,Chrome 81.0.4044.129,,2020-04-29 16:07:48,2020-04-29 16:08:55,1m - 7.558s,PASSED
+"openBrowser("""")",Chrome 81.0.4044.129,open browser,2020-04-29 16:07:49,2020-04-29 16:07:56,7.937s,PASSED
+maximizeWindow(),Chrome 81.0.4044.129,resize window,2020-04-29 16:07:56,2020-04-29 16:08:01,4.176s,PASSED
+"navigateToUrl(""http://test-katrina.icore.studio"")",Chrome 81.0.4044.129,set url,2020-04-29 16:08:01,2020-04-29 16:08:07,6.406s,PASSED
+"setText(findTestObject(""Page_Login/input_MEMBER LOGIN_user_name""), ""katrina_system@icore.studio"")",Chrome 81.0.4044.129,set username,2020-04-29 16:08:07,2020-04-29 16:08:07,0.337s,PASSED
+"setText(findTestObject(""Page_Login/input_MEMBER LOGIN_user_password""), ""rahasia123"")",Chrome 81.0.4044.129,set password,2020-04-29 16:08:07,2020-04-29 16:08:08,0.159s,PASSED
+"submit(findTestObject(""Page_Login/button_Sign In""))",Chrome 81.0.4044.129,"select button ""Sign in""",2020-04-29 16:08:08,2020-04-29 16:08:16,8.411s,PASSED
+"waitForElementPresent(findTestObject(""Page_Dashboard_Katrina/a_Hotel""), 10, CONTINUE_ON_FAILURE)",Chrome 81.0.4044.129,wait for element,2020-04-29 16:08:16,2020-04-29 16:08:16,0.068s,PASSED
+"click(findTestObject(""Page_Dashboard_Katrina/a_Hotel""), STOP_ON_FAILURE)",Chrome 81.0.4044.129,"select tab ""Hotel""",2020-04-29 16:08:16,2020-04-29 16:08:22,5.720s,PASSED
+"waitForElementPresent(findTestObject(""Page_Dashboard_Hotel/header/a_Transaction History""), 8, STOP_ON_FAILURE)",Chrome 81.0.4044.129,wait for element,2020-04-29 16:08:22,2020-04-29 16:08:22,0.114s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_CustomerType""), ""Retail"", false)",Chrome 81.0.4044.129,"select dropdown ""Customer type: Retail"", if select corporate please read SCRIPT",2020-04-29 16:08:22,2020-04-29 16:08:22,0.128s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_CustomerType""), ""Retail"", false, 5)",Chrome 81.0.4044.129,"verify option select label ""Customer type: Retail""",2020-04-29 16:08:22,2020-04-29 16:08:22,0.194s,PASSED
+"scrollToElement(findTestObject(""Page_Dashboard_Hotel/body/select_CustomerType""), 5)",Chrome 81.0.4044.129,"find element ""Customer type""",2020-04-29 16:08:22,2020-04-29 16:08:22,0.041s,PASSED
+"setText(findTestObject(""Page_Dashboard_Hotel/body/input_Your Destination_dropdown-input""), ""Jakarta"")",Chrome 81.0.4044.129,set destination,2020-04-29 16:08:22,2020-04-29 16:08:22,0.221s,PASSED
+"click(findTestObject(""Page_Dashboard_Hotel/body/div_Jakarta""), STOP_ON_FAILURE)",Chrome 81.0.4044.129,select destination,2020-04-29 16:08:22,2020-04-29 16:08:25,2.197s,PASSED
+"click(findTestObject(""Page_Dashboard_Hotel/body/img_CHECK IN_ui-datepicker-trigger""), STOP_ON_FAILURE)",Chrome 81.0.4044.129,select datepicker,2020-04-29 16:08:25,2020-04-29 16:08:25,0.252s,PASSED
+"waitForElementPresent(findTestObject(""Page_Dashboard_Hotel/body/date/a_Next""), 5, STOP_ON_FAILURE)",Chrome 81.0.4044.129,wait for element,2020-04-29 16:08:25,2020-04-29 16:08:25,0.054s,PASSED
+"click(findTestObject(""Page_Dashboard_Hotel/body/date/a_28""))",Chrome 81.0.4044.129,select date,2020-04-29 16:08:25,2020-04-29 16:08:25,0.188s,PASSED
+"setText(findTestObject(""Page_Dashboard_Hotel/body/input_Nationality_dropdown-input""), ""Indonesia"")",Chrome 81.0.4044.129,select dropdown nationality,2020-04-29 16:08:25,2020-04-29 16:08:25,0.253s,PASSED
+"click(findTestObject(""Page_Dashboard_Hotel/body/nationality/div_ID - Indonesia""), STOP_ON_FAILURE)",Chrome 81.0.4044.129,select nationality,2020-04-29 16:08:25,2020-04-29 16:08:26,0.209s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_bed_type""), ""Twin"", false)",Chrome 81.0.4044.129,"select dropdwon ""Bed Type : Twin""",2020-04-29 16:08:26,2020-04-29 16:08:26,0.191s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_bed_type""), ""Twin"", false, 5)",Chrome 81.0.4044.129,"verify option select label ""Bed Type: Twin""",2020-04-29 16:08:26,2020-04-29 16:08:26,0.379s,PASSED
+"selectOptionByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_room""), ""2"", false)",Chrome 81.0.4044.129,"select dropdwon ""Rooms: 2""",2020-04-29 16:08:26,2020-04-29 16:08:26,0.299s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""Page_Dashboard_Hotel/body/select_room""), ""2"", false, 5)",Chrome 81.0.4044.129,"verify option select label ""Rooms: 2""",2020-04-29 16:08:26,2020-04-29 16:08:27,0.600s,PASSED
+"click(findTestObject(""Page_Dashboard_Hotel/body/button_SEARCH""))",Chrome 81.0.4044.129,"select button ""Search""",2020-04-29 16:08:27,2020-04-29 16:08:27,0.143s,PASSED
+delay(10),Chrome 81.0.4044.129,delay to wait product,2020-04-29 16:08:27,2020-04-29 16:08:37,10.038s,PASSED
+"verifyElementVisible(findTestObject(""Page_Search_Result/lbl100_Search Result""))",Chrome 81.0.4044.129,verify element already exists,2020-04-29 16:08:37,2020-04-29 16:08:37,0.075s,PASSED
+"waitForElementVisible(findTestObject(""Page_Search_Result/btn_VIEW ROOM""), 0)",Chrome 81.0.4044.129,wait for element,2020-04-29 16:08:37,2020-04-29 16:08:37,0.072s,PASSED
+"click(findTestObject(""Page_Search_Result/btn_VIEW ROOM""))",Chrome 81.0.4044.129,select view room,2020-04-29 16:08:37,2020-04-29 16:08:38,0.153s,PASSED
+"click(findTestObject(""Page_Search_Result/btn_SELECT""))",Chrome 81.0.4044.129,select action,2020-04-29 16:08:38,2020-04-29 16:08:38,0.234s,PASSED
+switchToWindowIndex(1),Chrome 81.0.4044.129,"switch to windows ""Hotel Detail""",2020-04-29 16:08:38,2020-04-29 16:08:38,0.025s,PASSED
+"scrollToElement(findTestObject(""Page_Hotel_Detail/div_""), 0)",Chrome 81.0.4044.129,Scroll to element,2020-04-29 16:08:38,2020-04-29 16:08:42,4.187s,PASSED
+"click(findTestObject(""Page_Hotel_Detail/a_Facilities""))",Chrome 81.0.4044.129,Only to action: Read description or facilities,2020-04-29 16:08:42,2020-04-29 16:08:42,0.312s,PASSED
+delay(3),Chrome 81.0.4044.129,Delay to page,2020-04-29 16:08:42,2020-04-29 16:08:45,3.009s,PASSED
+"scrollToElement(findTestObject(""Page_Hotel_Detail/a_Facilities""), 0)",Chrome 81.0.4044.129,Scroll to element,2020-04-29 16:08:45,2020-04-29 16:08:45,0.111s,PASSED
+delay(10),Chrome 81.0.4044.129,End process,2020-04-29 16:08:45,2020-04-29 16:08:55,10.011s,PASSED
